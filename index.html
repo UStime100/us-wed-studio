@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US.time 預約系統</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="US.time.png" alt="Logo" class="logo">
+    <h1 class="main-title">US.time</h1>
+
+    <form id="bookingForm" class="booking-form">
+      <label>姓名：
+        <input type="text" name="name" required>
+      </label>
+      <label>Email：
+        <input type="email" name="email" required>
+      </label>
+      <label>預約時間：
+        <input type="datetime-local" name="time" required>
+      </label>
+      <label>備註：
+        <input type="text" name="note">
+      </label>
+      <label>IG 帳號：
+        <input type="text" name="ig" required placeholder="@yourIG">
+      </label>
+      <button type="submit">提交預約</button>
+    </form>
+
+    <a href="https://www.instagram.com/ustime251011/" target="_blank" class="ig-button">關於我們 IG</a>
+  </div>
+
+  <script src="booking.js"></script>
+</body>
+</html>
